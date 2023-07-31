@@ -6,8 +6,8 @@ from torch import nn
 from pathlib import Path
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-from utils.utils import read_yaml
-from data_transforms import torchvision_transform_train,torchvision_transform_test
+from src.utils.utils import read_yaml
+from src.data_transforms import torchvision_transform_train,torchvision_transform_test
 
 
 

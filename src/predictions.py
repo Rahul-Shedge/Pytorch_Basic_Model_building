@@ -7,7 +7,7 @@ import argparse
 from PIL import Image
 from model_creation import TinyVGG
 from data_transforms import torchvision_transform_test
-from utils.utils import read_yaml
+from src.utils.utils import read_yaml
 
 
 

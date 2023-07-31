@@ -7,7 +7,7 @@ from torch import nn
 from pathlib import Path
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-from utils.utils import read_yaml
+from src.utils.utils import read_yaml
 import argparse
 
 

@@ -1,11 +1,11 @@
 import os
 import torch
 # import TinyVGG, create_dataloaders,train
-from utils import utils
+from src.utils import utils
 from datetime import datetime
-from data_preprocessing import create_dataloaders
-from model_creation import TinyVGG
-from training_steps import train
+from src.data_preprocessing import create_dataloaders
+from src.model_creation import TinyVGG
+from src.training_steps import train
 import argparse
 import torchvision
 
