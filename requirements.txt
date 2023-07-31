@@ -3,6 +3,8 @@ torchvision
 requests
 pandas
 # argparser
+pyyaml
 tqdm
 torchinfo
 matplotlib
+-e .
